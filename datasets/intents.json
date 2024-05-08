@@ -1,0 +1,285 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "hi",
+        "hello",
+        "Hello",
+        "hello!",
+        "hey",
+        "namaste",
+        "Hey there",
+        "Howdy",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello, thanks for visiting.",
+        "Good to see you.",
+        "Hi there, how can I help?",
+        "Hello",
+        "Hey!",
+        "Namaste, how are you?",
+        "Hey, what's up?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "bye",
+        "See you later",
+        "see you later",
+        "Goodbye",
+        "goodbye",
+        "Take care",
+        "take care",
+        "Farewell",
+        "farewell"
+      ],
+      "responses": [
+        "See you later, thanks for visiting.",
+        "Have a nice day.",
+        "Goodbye! Come back again soon.",
+        "Bye-bye!",
+        "Take care!",
+        "Farewell, friend."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "thanks",
+        "Thank you",
+        "thank you",
+        "That's helpful",
+        "that's helpful",
+        "Appreciate it",
+        "appreciate it"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure.",
+        "You're welcome!",
+        "Glad I could assist.",
+        "No problem!",
+        "It was my pleasure.",
+        "You got it!"
+      ]
+    },
+    {
+      "tag": "family",
+      "patterns": [
+        "Who is your father?",
+        "who is your father?",
+        "What is your father's name?",
+        "what is your father's name?",
+        "What is your mother's name?",
+        "what is your mother's name?",
+        "Do you have parents?",
+        "do you have parents?",
+        "Do you have siblings?",
+        "do you have siblings?"
+      ],
+      "responses": ["I don't have knowledge about my family."]
+    },
+    {
+      "tag": "sarcasm",
+      "patterns": [
+        "Are you a God?",
+        "are you a god?",
+        "How old are you?",
+        "how old are you?",
+        "Are you a man?",
+        "are you a man?",
+        "Are you a bot?",
+        "are you a bot?",
+        "Do you have a job?",
+        "do you have a job?",
+        "Who is your best friend?",
+        "who is your best friend?",
+        "Am I your friend?",
+        "am I your friend?"
+      ],
+      "responses": [
+        "I'm not able to understand your question.",
+        "Please ask some related questions."
+      ]
+    },
+    {
+      "tag": "wellness",
+      "patterns": [
+        "How are you?",
+        "How you doing?",
+        "How are you doing?",
+        "Are you doing well?",
+        "Are you okay?",
+        "Are you fine?",
+        "Are you doing okay?"
+      ],
+      "responses": ["I'm cool.", "Always cool.", "I'm ok.", "I'm fine."]
+    },
+    {
+      "tag": "enquireaboutday",
+      "patterns": [
+        "How was your day?",
+        "How is your day going?",
+        "How is your day?"
+      ],
+      "responses": ["It's been great.", "It's been good."]
+    },
+    {
+      "tag": "askinghelp",
+      "patterns": [
+        "I need help!",
+        "Need help!",
+        "Help me please",
+        "Help me",
+        "Can you do something for me?",
+        "Answer my question"
+      ],
+      "responses": [
+        "i'm here to help you.",
+        "i can help you.",
+        "i'm here to solve your queries."
+      ]
+    },
+    {
+      "tag": "outofscope",
+      "patterns": [
+        "Who is the President?",
+        "Who is the Prime Minister?",
+        "What is my mother's name?",
+        "Are you a supporter of BJP?",
+        "Are you active in politics?"
+      ],
+      "responses": [
+        "your question is out of my knowledge.",
+        "i'm not able to answer your question.",
+        "i don't have knowledge about that."
+      ]
+    },
+    {
+      "tag": "wassup",
+      "patterns": [
+        "Wassup?",
+        "What are you doing?",
+        "What is up with you?",
+        "What are you up to?",
+        "How is it going?"
+      ],
+      "responses": ["i'm just chilling.", "i am enjoying day.", "i'm fine."]
+    },
+    {
+      "tag": "intro",
+      "patterns": ["Who are you?", "What is this?"],
+      "responses": [
+        "I'm a virtual assistant here to provide support and information on mental health. How can I assist you today?",
+        "I'm an AI designed to help with mental health inquiries. How can I support you right now?"
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": ["I'm experiencing symptoms", "I feel unwell mentally"],
+      "responses": [
+        "It's important to acknowledge what you're feeling. Can you describe the symptoms you're experiencing?",
+        "Recognizing your symptoms is a positive step. Can you share more about what you're going through?"
+      ]
+    },
+    {
+      "tag": "therapy",
+      "patterns": ["Do you recommend therapy?", "Should I see a therapist?"],
+      "responses": [
+        "Therapy can be beneficial for many people. It might be helpful to speak with a therapist to explore your feelings further.",
+        "Therapy can provide valuable support. It could be worth considering a consultation with a therapist."
+      ]
+    },
+    {
+      "tag": "self_care",
+      "patterns": [
+        "How can I practice self-care?",
+        "What are some self-care tips?"
+      ],
+      "responses": [
+        "Self-care is essential for mental well-being. Some self-care activities include mindfulness exercises, journaling, and spending time in nature. What self-care activities resonate with you?",
+        "Self-care is unique to each individual. Some suggestions include exercise, meditation, and engaging in hobbies you enjoy. What self-care practices do you find helpful?"
+      ]
+    },
+    {
+      "tag": "medication",
+      "patterns": [
+        "Should I take medication?",
+        "Do I need medication for my mental health?"
+      ],
+      "responses": [
+        "Medication can be a helpful component of mental health treatment for some individuals. It's important to discuss this with a healthcare professional to determine what's best for you.",
+        "Medication is one option for managing mental health concerns. Consulting with a healthcare provider can help you make an informed decision about whether it's the right choice for you."
+      ]
+    },
+    {
+      "tag": "support_system",
+      "patterns": ["I feel alone", "I don't have anyone to talk to"],
+      "responses": [
+        "Feeling alone can be challenging. Remember, there are people who care about you and resources available to support you. Would you like to explore ways to connect with others?",
+        "You're not alone. There are supportive communities and helplines available to provide assistance. Would you like help finding support resources?"
+      ]
+    },
+    {
+      "tag": "encouragement",
+      "patterns": [
+        "I'm struggling to cope",
+        "I don't know how to deal with this"
+      ],
+      "responses": [
+        "It's okay to struggle sometimes. You're stronger than you realize. Let's work through this together.",
+        "Dealing with challenges can be difficult, but remember, you have the strength to overcome them. You're not alone in this."
+      ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": ["I'm grateful for your help", "Thank you for being here"],
+      "responses": [
+        "I'm glad I could assist you. Remember, I'm here whenever you need support.",
+        "Your gratitude means a lot. I'm here to help whenever you need someone to talk to."
+      ]
+    },
+    {
+      "tag": "feeling_bad",
+      "patterns": ["I'm feeling down", "I'm sad", "Feeling low"],
+      "responses": [
+        "I'm sorry to hear that. It's important to take care of yourself. Would you like to talk about what's bothering you?",
+        "It's okay to feel this way. Let's work through it together. What's been on your mind?",
+        "Acknowledging your feelings is a great step. Would you like to share more about why you're feeling this way?"
+      ]
+    },
+    {
+      "tag": "positive_affirmation",
+      "patterns": ["I'm feeling better", "I feel good", "Feeling positive"],
+      "responses": [
+        "That's wonderful to hear! Keep up the positive momentum.",
+        "I'm glad to hear that you're feeling better! Remember, I'm here to support you whenever you need it.",
+        "Great to hear! Remember to celebrate the small victories."
+      ]
+    },
+    {
+      "tag": "resources",
+      "patterns": ["Do you have any resources?", "Where can I find help?"],
+      "responses": [
+        "Sure! Here are some resources you might find helpful: [ https://www.nami.org/], [ https://jedfoundation.org/], [You can call them at 1-866-488-7386, text START to 678678, or visit their website at https://www.thetrevorproject.org/]. If you need more specific assistance, feel free to ask.",
+        "Absolutely, here are some resources that might be useful for you: [ https://www.nami.org/], [ https://jedfoundation.org/], [You can call them at 1-866-488-7386, text START to 678678, or visit their website at https://www.thetrevorproject.org/]. If you need further guidance, don't hesitate to reach out."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I'm not sure I understand. Can you please rephrase or provide more details?",
+        "I'm having trouble understanding. Could you please clarify?",
+        "I'm not sure how to respond to that. Could you provide more information?"
+      ]
+    }
+  ]
+}

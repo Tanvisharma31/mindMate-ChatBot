@@ -1,0 +1,103 @@
+query,intent
+Hi,greeting
+hi,greeting
+hello,greeting
+Hello,greeting
+hello!,greeting
+hey,greeting
+namaste,greeting
+Hey there,greeting
+Howdy,greeting
+Greetings,greeting
+Bye,goodbye
+bye,goodbye
+See you later,goodbye
+see you later,goodbye
+Goodbye,goodbye
+goodbye,goodbye
+Take care,goodbye
+take care,goodbye
+Farewell,goodbye
+farewell,goodbye
+Thanks,thanks
+thanks,thanks
+Thank you,thanks
+thank you,thanks
+That's helpful,thanks
+that's helpful,thanks
+Appreciate it,thanks
+appreciate it,thanks
+Who is your father?,family
+who is your father?,family
+What is your father's name?,family
+what is your father's name?,family
+What is your mother's name?,family
+what is your mother's name?,family
+Do you have parents?,family
+do you have parents?,family
+Do you have siblings?,family
+do you have siblings?,family
+Are you a God?,sarcasm
+are you a god?,sarcasm
+How old are you?,sarcasm
+how old are you?,sarcasm
+Are you a man?,sarcasm
+are you a man?,sarcasm
+Are you a bot?,sarcasm
+are you a bot?,sarcasm
+Do you have a job?,sarcasm
+do you have a job?,sarcasm
+Who is your best friend?,sarcasm
+who is your best friend?,sarcasm
+Am I your friend?,sarcasm
+am I your friend?,sarcasm
+How are you?,wellness
+How you doing?,wellness
+How are you doing?,wellness
+Are you doing well?,wellness
+Are you okay?,wellness
+Are you fine?,wellness
+Are you doing okay?,wellness
+How was your day?,enquireaboutday
+How is your day going?,enquireaboutday
+How is your day?,enquireaboutday
+I need help!,askinghelp
+Need help!,askinghelp
+Help me please,askinghelp
+Help me,askinghelp
+Can you do something for me?,askinghelp
+Answer my question,askinghelp
+Who is the President?,outofscope
+Who is the Prime Minister?,outofscope
+What is my mother's name?,outofscope
+Are you a supporter of BJP?,outofscope
+Are you active in politics?,outofscope
+Wassup?,wassup
+What are you doing?,wassup
+What is up with you?,wassup
+What are you up to?,wassup
+How is it going?,wassup
+Who are you?,intro
+What is this?,intro
+I'm experiencing symptoms,symptoms
+I feel unwell mentally,symptoms
+Do you recommend therapy?,therapy
+Should I see a therapist?,therapy
+How can I practice self-care?,self_care
+What are some self-care tips?,self_care
+Should I take medication?,medication
+Do I need medication for my mental health?,medication
+I feel alone,support_system
+I don't have anyone to talk to,support_system
+I'm struggling to cope,encouragement
+I don't know how to deal with this,encouragement
+I'm grateful for your help,gratitude
+Thank you for being here,gratitude
+I'm feeling down,feeling_bad
+I'm sad,feeling_bad
+Feeling low,feeling_bad
+I'm feeling better,positive_affirmation
+I feel good,positive_affirmation
+Feeling positive,positive_affirmation
+Do you have any resources?,resources
+Where can I find help?,resources

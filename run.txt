@@ -1,0 +1,23 @@
+```
+For launching the web application, execute one of the following commands based on your setup:
+
+1. If using Flask:
+   ```
+   flask run
+   ```
+
+
+2. If running a Python script named app.py:
+   ```
+   python app.py
+   ```
+
+Once the server is running, open your web browser and go to http://127.0.0.1:5000/chatbot to start chatting with the chatbot.
+
+To run the chatbot model, execute the following command:
+```
+python chatbot_model.py
+```
+
+Make sure you have all necessary dependencies installed and configured before running the scripts.
+```
