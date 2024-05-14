@@ -18,6 +18,8 @@ def get_bot_response():
     return jsonify({'response': response})
 
 
-
 if __name__ == '__main__':
-     app.run(host='0.0.0.0')
+    host = os.environ.get('HOST', '0.0.0.0')  # Defaults to 0.0.0.0 for all interfaces
+    port = os.environ.get('PORT', 5000)  # Defaults to port 5000
+    app.run(host=host, port=port)
+
